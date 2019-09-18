@@ -55,14 +55,18 @@
             <artifactId>postgresql</artifactId>
             <scope>runtime</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.igniterealtime.openfire/xmppserver -->
+        <!--  git low severity-->
+<!--        <dependency>-->
+<!--            <groupId>org.igniterealtime.openfire</groupId>-->
+<!--            <artifactId>xmppserver</artifactId>-->
+<!--            <version>4.2.0</version>-->
+<!--            <scope>provided</scope>-->
+<!--        </dependency>-->
         <dependency>
             <groupId>org.igniterealtime.openfire</groupId>
             <artifactId>xmppserver</artifactId>
-            <version>4.2.0</version>
-            <scope>provided</scope>
+            <version>[4.4.1,)</version>
         </dependency>
-
 
     </dependencies>
 
