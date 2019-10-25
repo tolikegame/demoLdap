@@ -55,7 +55,7 @@
             <artifactId>postgresql</artifactId>
             <scope>runtime</scope>
         </dependency>
-        <!--  git low severity-->
+        <!--  Blowfish-->
         <dependency>
             <groupId>org.igniterealtime.openfire</groupId>
             <artifactId>xmppserver</artifactId>
