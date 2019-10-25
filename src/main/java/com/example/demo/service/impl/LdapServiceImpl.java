@@ -5,7 +5,6 @@ import com.example.demo.model.LdapUser;
 import com.example.demo.model.OfUser;
 import com.example.demo.repository.LdapUserRepository;
 import com.example.demo.repository.OfRepository;
-import com.example.demo.repository.UserRepository;
 import com.example.demo.service.LdapService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.ldap.core.LdapTemplate;
@@ -17,10 +16,9 @@ import java.util.List;
 
 @Service
 public class LdapServiceImpl implements LdapService {
+    
     @Autowired
     LdapUserRepository ldapUserRepository;
-    @Autowired
-    UserRepository userRepository;
     @Autowired
     LdapTemplate ldapTemplate;
     @Autowired
