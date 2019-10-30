@@ -29,7 +29,7 @@ public class LdapServiceImpl implements LdapService {
         List<LdapUser> ldapUsers = ldapUserRepository.findAll();
 
         //存入openfireDB
-        String openfireKey = "q5eJZ2DnMI55yTp";
+        String openfireKey = "q5eJZ2DnMI55yTp"; //key存於ofproperty
         String noEncryPWD = "1234";
         OfUser ofUser = new OfUser();
         for(LdapUser ldapUser:ldapUsers){
